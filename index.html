@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login || 2023</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div class="registrasi">
+                <h3 class="heading">Register</h3>
+                <div class="input-box">
+                    <div class="input">
+                        <label for="firstName">first name</label>
+                        <input type="text" placeholder="enter your first name" required id="firstName">
+                    </div>
+
+                    <div class="input">
+                        <label for="lastName">last name</label>
+                        <input type="text" placeholder="enter your last name" required id="lastName">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="input">
+                        <label for="email">email</label>
+                        <input type="email" placeholder="enter your email" required id="email">
+                    </div>
+
+                    <div class="input">
+                        <label for="password">password</label>
+                        <input type="password" placeholder="enter your password" required id="password">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="input">
+                        <label for="birthday">birthday</label>
+                        <input type="datetime-local" placeholder="enter your birthday" required id="birthday">
+                    </div>
+
+                    <div class="input">
+                        <label for="telp">no telp</label>
+                        <input type="number" placeholder="enter your telp" required id="telp">
+                    </div>
+                </div>
+                <button type="submit" class="btn nextBtn">Next <span
+                        class="fa-sharp fa-solid fa-forward"></span></button>
+            </div>
+
+            <div class="logins">
+                <h3 class="sub-heading">Login</h3>
+                <div class="inputs">
+                    <div class="input-login">
+                        <input type="email" placeholder="enter your email" required id="emails">
+                        <label for="emails" class="fa-solid fa-envelope iccons"></label>
+                    </div>
+                    <div class="input-login">
+                        <input type="password" placeholder="enter your password" required id="passwords">
+                        <label for="passwords" class="fa-solid fa-lock iccons"></label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" required id="agree">
+                        <label for="agree">I have a account</label>
+                    </div>
+                    <div class="buttons">
+                        <button class="btns back">Back</button>
+                        <button class="btns login">Login</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- script font  -->
+    <script src="https://kit.fontawesome.com/5bf2a33fd9.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
